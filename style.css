@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body {
+  height: 100vh;
+  background: #c6c7ff;
+  padding: 20px;
+}
+
+.container {
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  background-color: #b952e2;
+  color: white;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #9d91dd;
+
+}
+
+#divBusca{
+	padding-left: 20px;
+}
+#bottom-cad{
+	padding-left: 20px;
+}
+#pesq{
+
+  float:left;
+  background-color:white;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  height:30px;
+  width:250px;
+  border-bottom: 4px solid #5e2869;
+  border-radius: 5px;
+}
+
+#pesquisar{
+	float:center;
+  background-color:white;
+  font-family: Arial,sans-serif;
+  font-size:15px;
+  height:30px;
+  width:100px;
+  border-radius: 5px;
+  border-bottom: 4px solid #5e2869;
+}
+
+.butao{
+	float:center;
+  background-color:white;
+  font-family: Arial,sans-serif;
+  font-size:15px;
+  height:30px;
+  width:200px;
+  border-bottom: 4px solid #5e2869;
+  border-radius: 5px;
+	
+}
+.container1 {
+  text-align: center;
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+.titulo{
+  padding-top: 20px;
+  text-align: center;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  text-shadow: 2px 2px #be92c7;
+}
+#inputs{
+  flex: 1;
+}
+
+#inputs input{
+
+  border-bottom: 4px solid #5e2869;
+  border-radius: 5px;
+  font-family: Arial,sans-serif !important;
+  font-size:17px;
+  height:24px;
+  width:250px;
+}
+
+ .itens{
+  padding-left: 10px;
+  font-family: Arial,sans-serif !important;
+  font-size:23px;
+  width:150px;
+  font-weight: bold;
+
+ }
+
+ .formulario{
+  display: flex;
+
+ }
+
+ #input input{
+
+  border-bottom: 4px solid #5e2869;
+  border-radius: 5px;
+  font-family: Arial,sans-serif !important;
+  font-size:16px;
+  height:27px;
+  width:250px;
+}
+
+.container2{
+  padding: 20px;
+}
